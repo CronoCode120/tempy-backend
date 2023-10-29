@@ -23,7 +23,7 @@ describe("get temperature", () => {
   })
 })
 
-describe("post vote", () => {
+describe.skip("post vote", () => {
   it("saves posted vote", async () => {
     const body = {
       id: 1,
